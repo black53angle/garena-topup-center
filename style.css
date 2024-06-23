@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffd700;
+    padding: 20px;
+    text-align: center;
+}
+
+header .banner h1 {
+    margin: 0;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.top-up-options h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.game {
+    width: 150px;
+    text-align: center;
+}
+
+.game img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.game p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+}
